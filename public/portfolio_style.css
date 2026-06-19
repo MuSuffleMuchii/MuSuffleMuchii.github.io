@@ -1,0 +1,15 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.Logo{
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.Custom_Img img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
