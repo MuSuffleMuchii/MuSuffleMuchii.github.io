@@ -10,37 +10,44 @@
 </head>
 <body>
     <!--Chore: Fix and Design of Navbar, need to be responsive-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Placeholder</a>
-            <div class="navbar-collapse">
+    <div class="container-fluid mb-4 p-0">
+        <div class="row">
+            <div class="col-12">
+                <nav class="bg-dark navbar-dark d-flex justify-content-between align-items-center py-3 px-4">
+                    <img src="/images/Caidic_GlenSidney_Icon_Logo.svg" alt="Logo" class="img-fluid" style="height: 35px; width: auto;">
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                </ul>
-                
+                    <div class="d-flex align-items-center gap-4">
+                        <a href="index.html"
+                            class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-medium small">About</a>
+                        <a href="certificate.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-medium small">Certification</a>
+                        <a href="experience.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-medium small">Experience</a>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!--Chore: Content-->
-
-    <div class="col-3">
-            <img class="rounded-circle col-12" src="/images/Pic.jpg" alt="Profile">
-            <h1 class="pt-3">Glen Sidney T. Caidic</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 align-items-center text-center">
+                <img class="rounded-circle col-12 d-flex" src="/images/Pic.jpg" alt="Profile">
+                <h1 class="pt-3 ">Glen Sidney T. Caidic</h1>
+                <p>Network Administrator</p>
+            </div>
+            
+            <!--About Section-->
+            <div class="card col-lg-9 col-md-6 col-sm-6">
+                <div class="container p-3">
+                    <h1 class="pt-3">About</h1>
+                    <p>My name is Glen Sidney T. Caidic, Graduated/ing from Polytechnic University of the Philippines Sto.Tomas Batangas.
+                    </p>
+                </div>
+            </div>
         </div>
+    </div>
 
-    </div>
-    <div class="col-9 d-flex">
-    </div>
+
 
 
     <!--Chore: Add Things to Placeholders-->
