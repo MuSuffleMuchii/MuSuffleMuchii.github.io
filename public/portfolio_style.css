@@ -3,5 +3,17 @@
 }
 
 .Home-Color{
-    background-color: #fae6e5;
+    background-color: #918868;
+}
+
+.navbar-color{
+    background-color: #777055;
+}
+
+.navbar-nav li{
+    color: #dcedb9;
+}
+
+.card-color{
+    background-color: #CBD081;
 }
