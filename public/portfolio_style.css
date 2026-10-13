@@ -2,10 +2,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #B56D4E;
-}
-
 .navbar-color{
     background-color: #1D0504;
 }
@@ -14,4 +10,12 @@ body {
     width: 100%;
     max-width: 50px;
     height: auto;
+}
+
+.row-color{
+    background-color: #ffecd1;
+}
+
+.card-color{
+    background-color: #ffecd1;
 }
