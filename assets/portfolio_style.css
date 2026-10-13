@@ -3,11 +3,11 @@
 }
 
 .Home-Color{
-    background-color: #918868;
+    background-color: #EAE2D6;
 }
 
 .navbar-color{
-    background-color: #777055;
+    background-color: #495139;
 }
 
 .navbar-nav li{
@@ -15,16 +15,17 @@
 }
 
 .card-color{
-    background-color: #CBD081;
+    background-color: #F7F2EB;
 }
 
 .Activities-Color{
-    background-color: #918868;
+    background-color: #8B9A6E;
 }
 
 
 .act-card{
     width: 100%;
+    background-color: #F7F2EB;
 }
 
 .activity-image-frame{
@@ -43,5 +44,9 @@
 }
 
 .Footer-Color{
-    background-color: #777055;
+    background-color: #495139;
+}
+
+.text-color{
+    color: #dcedb9;
 }
