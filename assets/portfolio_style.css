@@ -50,3 +50,15 @@
 .text-color{
     color: #dcedb9;
 }
+
+.gallery-card {
+    overflow: hidden;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
